@@ -3,6 +3,8 @@ A Nodejs Client for Vocalware
 
 Node client for the [Vocalware](https://www.vocalware.com/) REST API.
 
+You will need your account number, your api number and secret information from your account at www.vocalware.com
+
 ## Install
 
 Run `npm install VocalwareNodeClient`.
@@ -13,7 +15,7 @@ Run `npm install VocalwareNodeClient`.
 ```js
 var vocalwareClient = require('./../index.js');
 
-var vClient = new vocalwareClient({ACC: '5269727', API: '243XXX', SECRET: 'ea7793b4XXXXXXa098d91046924aa'});
+var vClient = new vocalwareClient({ACC: '526972X', API: '243XXX', SECRET: 'ea7793b4XXXXXXa098d91046924aa'});
 
 vClient.TextToSpeech("This is a test string test", "test.mp3")
     .then(function (audioBuffer) {
