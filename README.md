@@ -7,7 +7,7 @@ You will need your account number, your api number and secret information from y
 
 ## Install
 
-Run `npm install VocalwareNodeClient`.
+Run `npm install vocalwarenodeclient`.
 
 ## Usage
 
