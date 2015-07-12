@@ -1,6 +1,6 @@
 {
   "name": "vocalwarenodeclient",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vocalware Webservice API Interfce Client",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "assert": "^1.3.0",
     "extend": "^3.0.0",
     "fs": "0.0.2",
+    "q": "^1.4.1",
     "superagent": "^1.2.0"
   }
 }

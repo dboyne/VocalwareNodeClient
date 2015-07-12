@@ -13,7 +13,7 @@ Run `npm install vocalwarenodeclient`.
 
 
 ```js
-var vocalwareClient = require('./../index.js');
+var vocalwareClient = require('vocalwarenodeclient');
 
 var vClient = new vocalwareClient({ACC: '526972X', API: '243XXX', SECRET: 'ea7793b4XXXXXXa098d91046924aa'});
 
