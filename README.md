@@ -13,7 +13,7 @@ Run `npm install VocalwareNodeClient`.
 ```js
 var vocalwareClient = require('./../index.js');
 
-var vClient = new vocalwareClient({ACC: '5269727', API: '2439098', SECRET: 'ea7793b4a5d697256a098d91046924aa'});
+var vClient = new vocalwareClient({ACC: '5269727', API: '243XXX', SECRET: 'ea7793b4XXXXXXa098d91046924aa'});
 
 vClient.TextToSpeech("This is a test string test", "test.mp3")
     .then(function (audioBuffer) {
