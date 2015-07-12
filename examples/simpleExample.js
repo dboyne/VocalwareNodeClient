@@ -2,7 +2,7 @@ var vocalwareClient = require('./../index.js');
 
 var vClient = new vocalwareClient({ACC: 'XXXX', API: 'XXX', SECRET: 'XXXX'});
 
-vClient.TextToSpeech("This is a test string test", "test.mp3")
+vClient.TextToSpeech("This is a test string test")
     .then(function (audioBuffer) {
         // Eventhing went well so lets save the audio to a file.
         vClient.WriteAudioToFile(audioBuffer, "/temp/newFile.mp3")

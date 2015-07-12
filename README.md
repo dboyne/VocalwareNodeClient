@@ -17,7 +17,7 @@ var vocalwareClient = require('vocalwarenodeclient');
 
 var vClient = new vocalwareClient({ACC: '526972X', API: '243XXX', SECRET: 'ea7793b4XXXXXXa098d91046924aa'});
 
-vClient.TextToSpeech("This is a test string test", "test.mp3")
+vClient.TextToSpeech("This is a test string test")
     .then(function (audioBuffer) {
         // Eventhing went well so lets save the audio to a file.
         vClient.WriteAudioToFile(audioBuffer, "/temp/newFile.mp3")
